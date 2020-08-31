@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition:ConnectorDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:definition="http://www.bonitasoft.org/ns/connector/definition/6.1">
+    <id>${definition-id}</id> <!-- Id of the definition -->
+    <version>${definition-version}</version> <!-- Version of the definition -->
+    <category id="organization" icon="actors_mapping.png" />
+
+    <input name="userId" type="java.lang.Long" mandatory="true" />
+
+    <page id="config">
+        <widget id="userId" inputName="userId" xsi:type="definition:Text" />
+    </page>
+</definition:ConnectorDefinition>
