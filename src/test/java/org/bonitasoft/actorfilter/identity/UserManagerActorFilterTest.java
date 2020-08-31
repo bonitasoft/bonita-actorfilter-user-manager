@@ -79,7 +79,7 @@ class UserManagerActorFilterTest {
     }
 
     @Test
-    public void should_return_a_list_of_candidates() throws Exception {
+    void should_return_a_list_of_candidates() throws Exception {
         // Given
         Map<String, Object> parameters = new HashMap<>();
         long userId = 3L;
