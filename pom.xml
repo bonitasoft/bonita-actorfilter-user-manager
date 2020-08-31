@@ -37,7 +37,7 @@
 
         <!-- Actor filter -->
         <definition-id>${project.artifactId}</definition-id>
-        <definition-version>1.0</definition-version>
+        <definition-version>1.0.0</definition-version>
         <impl-id>${definition-id}-impl</impl-id>
         <impl-version>${project.version}</impl-version>
         <impl-main-class>org.bonitasoft.actorfilter.identity.UserManagerActorFilter</impl-main-class>
