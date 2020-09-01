@@ -23,4 +23,4 @@ We would love you to contribute, pull requests are welcome! Please see the [CONT
 
 ## License
 
-The sources and documentation in this project are released under the [GPLv2 License](LICENSE)
+The sources and documentation in this project are released under the [GPLv2 License](LICENSE).
