@@ -3,6 +3,7 @@
 [![GitHub release](https://img.shields.io/github/v/release/bonitasoft/bonita-actorfilter-user-manager?color=blue&label=Release)](https://github.com/bonitasoft/bonita-actorfilter-user-manager/releases)
 [![Maven Central](https://img.shields.io/maven-central/v/org.bonitasoft.actorfilter/bonita-actorfilter-user-manager?color=orange&label=Maven%20Central)](https://search.maven.org/artifact/org.bonitasoft.actorfilter/bonita-actorfilter-user-manager)
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-yellow.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbonitasoft%2Fbonita-actorfilter-user-manager.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbonitasoft%2Fbonita-actorfilter-user-manager?ref=badge_shield)
 
 Bonita Actor Filter that filter users of an actor based on the manager of the specified user.
 
@@ -24,3 +25,5 @@ We would love you to contribute, pull requests are welcome! Please see the [CONT
 ## License
 
 The sources and documentation in this project are released under the [GPLv2 License](LICENSE)
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbonitasoft%2Fbonita-actorfilter-user-manager.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbonitasoft%2Fbonita-actorfilter-user-manager?ref=badge_large)
