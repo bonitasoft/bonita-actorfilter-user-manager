@@ -43,7 +43,7 @@
         <impl-main-class>org.bonitasoft.actorfilter.identity.UserManagerActorFilter</impl-main-class>
 
         <!-- Bonita -->
-        <bonita.engine.version>7.14.0</bonita.engine.version>
+        <bonita.engine.version>9.0.0</bonita.engine.version>
 
         <!-- Tests -->
         <junit-jupiter-engine.version>5.10.1</junit-jupiter-engine.version>
