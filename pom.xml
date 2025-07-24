@@ -28,7 +28,7 @@
             <url>http://www.gnu.org/licenses/gpl-2.0.txt</url>
         </license>
     </licenses>
-    
+
     <properties>
          <!-- Maven -->
         <java.version>11</java.version>
@@ -60,7 +60,7 @@
         <maven-surefire-plugin.version>3.2.2</maven-surefire-plugin.version>
         <jacoco-maven-plugin.version>0.8.10</jacoco-maven-plugin.version>
         <sonar-maven-plugin.version>3.10.0.2594</sonar-maven-plugin.version>
-        <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
+        <central-maven-plugin.version>0.8.0</central-maven-plugin.version>
         <maven-javadoc-plugin.version>3.6.2</maven-javadoc-plugin.version>
         <maven-source-plugin.version>3.3.0</maven-source-plugin.version>
 
@@ -88,7 +88,7 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    
+
     <dependencies>
         <!-- Bonita -->
         <dependency>
@@ -123,7 +123,7 @@
         </dependency>
 
     </dependencies>
-    
+
     <build>
     	<defaultGoal>package</defaultGoal>
         <resources>
@@ -210,14 +210,12 @@
                     <version>${sonar-maven-plugin.version}</version>
                 </plugin>
                 <plugin>
-                    <groupId>org.sonatype.plugins</groupId>
-                    <artifactId>nexus-staging-maven-plugin</artifactId>
-                    <version>${nexus-staging-maven-plugin.version}</version>
+                    <groupId>org.sonatype.central</groupId>
+                    <artifactId>central-publishing-maven-plugin</artifactId>
+                    <version>${central-maven-plugin.version}</version>
                     <extensions>true</extensions>
                     <configuration>
-                        <serverId>ossrh</serverId>
-                        <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                        <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                        <autoPublish>true</autoPublish>
                     </configuration>
                 </plugin>
             </plugins>
@@ -307,17 +305,6 @@
             </build>
         </profile>
     </profiles>
-    <distributionManagement>
-        <!-- Central Repository -->
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
     <scm>
         <developerConnection>scm:git:git@github.com:bonitasoft/bonita-actorfilter-user-manager.git
         </developerConnection>
