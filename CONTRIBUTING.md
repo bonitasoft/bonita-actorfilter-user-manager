@@ -44,7 +44,7 @@ Ensure that your contribution is correctly tested:
  
 ## Bonita actor filter development
 
-The readme contains details on the content of the generated project, and how it should be used to develop and build a Bonita actor filter. More details are available in the documentation: [https://documentation.bonitasoft.com/](https://documentation.bonitasoft.com/).
+The readme contains details on the content of the generated project, and how it should be used to develop and build a Bonita actor filter. More details are available in the documentation: [https://documentation.ofelia.com/](https://documentation.ofelia.com/).
 
 ### Definition
 A actor filter is first defined by its **definition**.  It is an XML file located in _src/main/resources/[artifactId].def_ by default.   
